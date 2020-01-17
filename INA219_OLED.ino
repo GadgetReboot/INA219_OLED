@@ -27,8 +27,8 @@ void setup() {
   // initialize ina219 with default measurement range of 32V, 2A
   ina219.begin();
 
-  // ina219.setCalibration_32V_2A();    // set measurement range to 32V, 2A
-  // ina219.setCalibration_32V_1A();    // set measurement range to 32V, 1A
+  // ina219.setCalibration_32V_2A();    // set measurement range to 32V, 2A  (do not exceed 26V!)
+  // ina219.setCalibration_32V_1A();    // set measurement range to 32V, 1A  (do not exceed 26V!)
   // ina219.setCalibration_16V_400mA(); // set measurement range to 16V, 400mA
 
   // initialize OLED display
